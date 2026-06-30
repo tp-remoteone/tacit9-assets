@@ -15,12 +15,41 @@
     }
   },
   "prediction_db": {
-    "_comment": "올릴 예측 DB 언어 확정 후 채움. 예: ja/zh/fr/es/de/ru. 형식: {url, bytes, sha256, target(설치 파일명)}",
     "ja": {
-      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/predict-ja.zip",
-      "bytes": 0,
-      "sha256": "TODO",
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_jpn_dic.db",
+      "bytes": 21737472,
+      "sha256": "9c907a0be3632acc47be8ef55a337199f66022dc0a10c85a6b9a188099624b4f",
       "target": "hanal_jpn_dic.db"
+    },
+    "zh": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_chn_hanzi_secured.db",
+      "bytes": 8265728,
+      "sha256": "167f51be9e18d81a121ed7d7fccf61378a174507239f61728077266e618c89b5",
+      "target": "hanal_chn_hanzi_secured.db"
+    },
+    "fr": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_fra_digital_braille_secured.db",
+      "bytes": 34652160,
+      "sha256": "395b980c5ee34a373fd25fbca9cab25f05f159e7e35c539617c51a4e526e61f1",
+      "target": "hanal_fra_digital_braille_secured.db"
+    },
+    "es": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_spa_digital_braille_secured.db",
+      "bytes": 32829440,
+      "sha256": "eb350da9f9827485af6f627825337a670d7d6b318105a49b673c8126f2ab8b90",
+      "target": "hanal_spa_digital_braille_secured.db"
+    },
+    "de": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_deu_digital_braille_secured.db",
+      "bytes": 95203328,
+      "sha256": "ae93b5d67560130ead19befabd9e895322c567f28a325f249123e5b2b9bff39f",
+      "target": "hanal_deu_digital_braille_secured.db"
+    },
+    "ru": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_rus_digital_braille_secured.db",
+      "bytes": 72204288,
+      "sha256": "a6fbec2288712534ecac9c5d3295b0bc7dbd8978c4e5de74219eeda12c3ade38",
+      "target": "hanal_rus_digital_braille_secured.db"
     }
   }
 }
