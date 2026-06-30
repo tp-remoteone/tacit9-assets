@@ -1,0 +1,26 @@
+{
+  "catalog_version": 1,
+  "stt_models": {
+    "en": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-en.zip",
+      "bytes": 41183109,
+      "sha256": "4f0e249663ac3fa51d1560ce548ec487afc8db60423fcbd2eeecf31b9473d561",
+      "dir": "model-en"
+    },
+    "ko": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-ko.zip",
+      "bytes": 86755844,
+      "sha256": "aaaa6f885d266dc0c74d08f269e12f718bc651b873d0da24249e917e6b5c081e",
+      "dir": "model-ko"
+    }
+  },
+  "prediction_db": {
+    "_comment": "올릴 예측 DB 언어 확정 후 채움. 예: ja/zh/fr/es/de/ru. 형식: {url, bytes, sha256, target(설치 파일명)}",
+    "ja": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/predict-ja.zip",
+      "bytes": 0,
+      "sha256": "TODO",
+      "target": "hanal_jpn_dic.db"
+    }
+  }
+}
