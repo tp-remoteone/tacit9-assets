@@ -12,6 +12,42 @@
       "bytes": 86755844,
       "sha256": "aaaa6f885d266dc0c74d08f269e12f718bc651b873d0da24249e917e6b5c081e",
       "dir": "model-ko"
+    },
+    "ja": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-ja.zip",
+      "bytes": 50364557,
+      "sha256": "17e33169833d6db1b4f24d58f4d81c7e26de197da4f17c28ca2ba2df3bef28b4",
+      "dir": "model-ja"
+    },
+    "de": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-de.zip",
+      "bytes": 46923357,
+      "sha256": "18588c90f2f06afec39e4f6bee648af173507ca3b8263746659c80ca0d9ef9b6",
+      "dir": "model-de"
+    },
+    "es": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-es.zip",
+      "bytes": 40108337,
+      "sha256": "d2018474e761ae58857ebe21fcf3459e7fda82cd3ac8831588857284de3bf237",
+      "dir": "model-es"
+    },
+    "fr": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-fr.zip",
+      "bytes": 42832488,
+      "sha256": "254f5eedd7a86fe47eec5a64c7af8ed94c609d279bc2db59b4aa7015f84f0fdc",
+      "dir": "model-fr"
+    },
+    "ru": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-ru.zip",
+      "bytes": 46797632,
+      "sha256": "644ff3fbfd37dedceffe0193c0811d5d35d524ed1f507de38afa4e0a690403c4",
+      "dir": "model-ru"
+    },
+    "zh": {
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-zh.zip",
+      "bytes": 44268336,
+      "sha256": "3dab9af381df19bd9c35c1c74cde21421a26fb6b76bc3f893a1728f9bd3f1698",
+      "dir": "model-zh"
     }
   },
   "prediction_db": {
