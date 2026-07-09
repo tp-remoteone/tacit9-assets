@@ -1,5 +1,5 @@
 {
-  "catalog_version": 2,
+  "catalog_version": 3,
   "stt_models": {
     "en": {
       "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/vosk-models-v1/model-en.zip",
@@ -58,35 +58,41 @@
       "target": "hanal_jpn_dic.db"
     },
     "zh": {
-      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_chn_hanzi_secured.db",
-      "bytes": 8265728,
-      "sha256": "fc9c2bb890643b0c3d924a5c9f1de6ebe65d7e84a3a05ff139456a7c1ad4659a",
-      "target": "hanal_chn_hanzi_secured.db"
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_chn_hanzi_aes.db",
+      "bytes": 8106016,
+      "sha256": "3874a0f6e5d052ba1b9727282f2186d545961c0e6234daa2f68ab4bfd00c7ac7",
+      "target": "hanal_chn_hanzi_aes.db",
+      "file": "hanal_chn_hanzi_aes.db"
     },
     "fr": {
-      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_fra_digital_braille_secured.db",
-      "bytes": 33886208,
-      "sha256": "c0f0da988477b66f0c4fe2ff30d560906918da1dee5bbefdd10ce0f318f78ed1",
-      "target": "hanal_fra_digital_braille_secured.db"
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_fra_digital_braille_aes.db",
+      "bytes": 33218592,
+      "sha256": "4f24c17830c77731a5957251f8092d85ef0696a78aa78d6b807765a79625c93b",
+      "target": "hanal_fra_digital_braille_aes.db",
+      "file": "hanal_fra_digital_braille_aes.db"
     },
     "es": {
-      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_spa_digital_braille_secured.db",
-      "bytes": 32116736,
-      "sha256": "08d12e73350e421ea490c5ef81d7bafc2ee9453f91cb67c0f0c6fea94ce5b529",
-      "target": "hanal_spa_digital_braille_secured.db"
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_spa_digital_braille_aes.db",
+      "bytes": 31490080,
+      "sha256": "01f31c2b172af5149bc4ae8e09f15c84195613c66fff79ca28879cbb8cfd75f9",
+      "target": "hanal_spa_digital_braille_aes.db",
+      "file": "hanal_spa_digital_braille_aes.db"
     },
     "de": {
-      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_deu_digital_braille_secured.db",
-      "bytes": 92528640,
-      "sha256": "05a1e8db65abbd7a06411486f37f26c3bd279832f6b14a423d49a819ab9dd9f1",
-      "target": "hanal_deu_digital_braille_secured.db"
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_deu_digital_braille_aes.db",
+      "bytes": 90701856,
+      "sha256": "b0b3c2fee0fd811bec4e1db02e58420d0800c68a21b3ef185ca15fd84a578928",
+      "target": "hanal_deu_digital_braille_aes.db",
+      "file": "hanal_deu_digital_braille_aes.db"
     },
     "ru": {
-      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_rus_digital_braille_secured.db",
-      "bytes": 70217728,
-      "sha256": "90b9dec6f47394ea154e162f5c143cad37cc9a7cca6dc3450216cf22551eb249",
-      "target": "hanal_rus_digital_braille_secured.db"
+      "url": "https://github.com/tp-remoteone/tacit9-assets/releases/download/prediction-db-v1/hanal_rus_digital_braille_aes.db",
+      "bytes": 68857888,
+      "sha256": "f1761471a2df4da8daa96f0eda2cf18e2322d62e84ae6d5d9e959a038b0d3494",
+      "target": "hanal_rus_digital_braille_aes.db",
+      "file": "hanal_rus_digital_braille_aes.db"
     },
-    "_kdf_gen": 2
+    "_kdf_gen": 2,
+    "_enc": "aes-cbc-v1"
   }
 }
